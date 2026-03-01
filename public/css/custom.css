@@ -1,0 +1,42 @@
+/* custom.css - overrides for the Hextra theme
+ *
+ * You can change the root font size by overriding the CSS variables
+ * that Hextra uses for its text utilities.  The default values are
+ * defined in `assets/css/compiled/main.css` and look like this:
+ *
+ *   --hx-text-base: 1rem;
+ *   --hx-text-lg:   1.125rem;
+ *   --hx-text-xl:   1.25rem;
+ *   ...
+ *
+ * Adjust the values below to increase or decrease the overall font
+ * sizing.  Only the properties you override need to be listed here.
+ */
+
+:root {
+    /* make the base text a little larger */
+    --hx-text-base: 1.15rem;   /* ~18px instead of 16px */
+
+    /* scale up the larger utility sizes as well */
+    --hx-text-lg: 1.00rem;
+    --hx-text-xl: 1.15rem;
+
+    /* you can override other sizes too, e.g. small/2xl/etc. */
+    /* --hx-text-sm: 0.9rem; */
+
+    /* change primary color hue/saturation/lightness to customize theme
+       (see theme docs or styles.css for default values) */
+    /* primary colour – a warm yellow/golden tone */
+    --primary-hue:        10deg;   /* yellow/orange border between 30–60° */
+    --primary-saturation:  90%;     /* moderately vivid */
+    --primary-lightness:  80%;     /* not too pale, not too dark */
+
+    /* optional: dark‑mode background and greys so the page
+       looks like the screenshot’s deep charcoal */
+    --hx-color-dark:      #121212;
+    --hx-color-gray-800:  #2e2e2e;
+}
+
+/* if you prefer to simply set a global html font-size instead:
+html { font-size: 18px; }
+*/
