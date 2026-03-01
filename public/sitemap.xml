@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/02_platforms/wifi/01-recon/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/03_techniques/01-using-certutil/</loc>
@@ -11,8 +13,6 @@
     <loc>http://localhost:1313/docs/05_detection/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/01_methodology/</loc>
   </url><url>

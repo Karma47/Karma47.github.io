@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RTFM – Home</title>
+    <title>RTFM – </title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on RTFM</description>
+    <description>Recent content on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
