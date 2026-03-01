@@ -62,4 +62,4 @@ mdk4 wlan0mon p -t  F0:9F:C2:6A:88:26 -f ./wifi.wordlist
 ```
 ![[Pasted image 20260209182631.png]]
 
-![](/docs/02_platforms/wifi/assets/Pasted%20image%2020260222230339.png)
+![](/docs//docs/02_platforms/wifi/assets/Pasted%20image%2020260222230339.png)

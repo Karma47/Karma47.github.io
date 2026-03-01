@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_platforms/wifi/01 Recon.md",
+                "file": "02_platforms/Windows/01_File_Transfer/01 Using CertUTIL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 Recon"
+              "title": "01 Using CertUTIL"
             }
           }
         ]
@@ -185,9 +185,11 @@
   },
   "active": "21d95e75065a53af",
   "lastOpenFiles": [
+    "02_platforms/wifi/01 Recon.md",
+    "02_platforms/Windows/01_File_Transfer/01 Using CertUTIL.md",
+    "02_platforms/Windows/01_File_Transfer",
     "02_platforms/wifi/assets/Pasted image 20260222230339.png",
     "02_platforms/_index.md",
-    "02_platforms/wifi/01 Recon.md",
     "02_platforms/wifi/01_recon.md",
     "02_platforms/wifi/_index.md",
     "02_platforms/wifi/01_recon",
@@ -202,7 +204,6 @@
     "02_platforms/wifi/assets/Pasted image 20260222211833.png",
     "02_platforms/wifi/assets/Pasted image 20260222211651.png",
     "02_platforms/wifi/assets/Pasted image 20260222210246.png",
-    "02_platforms/wifi/assets/Pasted image 20260222210017.png",
     "02_platforms/wifi/assets",
     "_index.md",
     "02_platforms/Windows",
@@ -211,7 +212,6 @@
     "02_platforms/Active-Directory",
     "05_detection",
     "04_playbooks",
-    "03_techniques",
-    "02_platforms"
+    "03_techniques"
   ]
 }
