@@ -30,7 +30,7 @@ Welcome to my portfolio! I'm a Cyber Security <span id="role">Specialist</span> 
 2. **Project Beta** – An open-source library that ...
 3. **Project Gamma** – A blog detailing ...
 
-Feel free to browse through the links below or check out my [notes](/docs/) and [GitHub](https://github.com/Karma47).
+Feel free to browse through the links below or check out my [notes](/docs/), Lab list [labs](/docs/02_platforms/lab_tracker.html) and [GitHub](https://github.com/Karma47).
 
 > "Crafting solutions, one line at a time."
 
