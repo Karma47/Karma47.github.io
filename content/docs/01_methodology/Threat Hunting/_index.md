@@ -1,5 +1,5 @@
 ---
-title: Methodology
+title: Threat Hunting
 description: All my notes
 ---
 This contains the notes for attacking various platforms. 

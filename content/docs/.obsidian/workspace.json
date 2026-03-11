@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_methodology/Threat Hunting/04 Hunting with Data.md",
+                "file": "01_methodology/Threat Hunting/_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 Hunting with Data"
+              "title": "_index"
             }
           }
         ]
@@ -185,9 +185,10 @@
   },
   "active": "21d95e75065a53af",
   "lastOpenFiles": [
+    "01_methodology/Threat Hunting/04 Hunting with Data.md",
+    "01_methodology/_index 1.md",
     "01_methodology/Threat Hunting/05 Custom Threat Hunting.md",
     "01_methodology/Threat Hunting/06 Threat Hunting in Cloud.md",
-    "01_methodology/Threat Hunting/04 Hunting with Data.md",
     "01_methodology/Threat Hunting/03 Threat Communication.md",
     "01_methodology/Threat Hunting/02 Threat Actors.md",
     "01_methodology/Threat Hunting/01 Threat Hunting Introduction.md",
@@ -221,7 +222,6 @@
     "03_techniques/01 Using CertUTIL.md",
     "02_platforms/Windows/01_File_Transfer",
     "02_platforms/wifi/assets/Pasted image 20260222230339.png",
-    "02_platforms/wifi/01_recon.md",
     "02_platforms/wifi/assets/Pasted image 20260222220611.png",
     "02_platforms/wifi/assets/Pasted-image-20260222214944.png",
     "02_platforms/wifi/attachments/Pasted image 20260222214944.png",

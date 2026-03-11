@@ -1,0 +1,127 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTFM – Threat Hunting</title>
+    <link>http://localhost:1313/docs/01_methodology/threat-hunting/</link>
+    <description>Recent content in Threat Hunting on RTFM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/docs/01_methodology/threat-hunting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-introduction/</guid>
+      <description>
+        
+        
+        &lt;h4&gt;1.1 What is threat hunting ?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;11-what-is-threat-hunting-&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#11-what-is-threat-hunting-&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;1.2Threat Hunting in Enterprises&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;12threat-hunting-in-enterprises&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#12threat-hunting-in-enterprises&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;1.3 Threat Hunting Maturity Model&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;13-threat-hunting-maturity-model&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#13-threat-hunting-maturity-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;1.4 Threat Hunting services&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;14-threat-hunting-services&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#14-threat-hunting-services&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;1.5 Threat Hunting Types&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;15-threat-hunting-types&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#15-threat-hunting-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;1.6 Structured Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;16-structured-threat-hunting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#16-structured-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;h5&gt;1.7 Unstructured Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;17-unstructured-threat-hunting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#17-unstructured-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;h5&gt;1.8 Situational + Entity-Driven Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;18-situational--entity-driven-threat-hunting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#18-situational--entity-driven-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/02-threat-actors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/02-threat-actors/</guid>
+      <description>
+        
+        
+        &lt;h4&gt;2.1 Types of Threat Actors&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-types-of-threat-actors&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#21-types-of-threat-actors&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;2.2 Ransomware Threat Actors&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-ransomware-threat-actors&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#22-ransomware-threat-actors&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;2.3 Advanced Persistent Threats&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23-advanced-persistent-threats&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#23-advanced-persistent-threats&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-communication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-communication/</guid>
+      <description>
+        
+        
+        &lt;h4&gt;3.1 Information collection - Inbound&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;31-information-collection---inbound&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#31-information-collection---inbound&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;3.1.1 Traffic Light Protocol&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;311-traffic-light-protocol&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#311-traffic-light-protocol&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;3.1.2 Intelligence feeds&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;312-intelligence-feeds&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#312-intelligence-feeds&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;3.2 Information Dissemination&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;32-information-dissemination&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#32-information-dissemination&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;3.2.1  Internal communications&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;321--internal-communications&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#321--internal-communications&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;h5&gt;3.2.2 Disclosure Protocols&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;322-disclosure-protocols&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#322-disclosure-protocols&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;h5&gt;3.2.3 Threat Intelligence Reporting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;323-threat-intelligence-reporting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#323-threat-intelligence-reporting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/04-hunting-with-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/04-hunting-with-data/</guid>
+      <description>
+        
+        
+        &lt;h4&gt;4.1 Data types&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;41-data-types&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#41-data-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.2 Network Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;42-network-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#42-network-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.3 Endpoint /Host Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;43-endpoint-host-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#43-endpoint-host-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.4 Authentication &amp;amp; Identity Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;44-authentication--identity-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#44-authentication--identity-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.5 File and Storage Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;45-file-and-storage-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#45-file-and-storage-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.6 Email Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;46-email-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#46-email-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.7 Cloud &amp;amp; SaaS Logs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;47-cloud--saas-logs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#47-cloud--saas-logs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.8 Application Logs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;48-application-logs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#48-application-logs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.9 Security Tool Telemetry&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;49-security-tool-telemetry&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#49-security-tool-telemetry&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.10 Threat Intelligence Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;410-threat-intelligence-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#410-threat-intelligence-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.11 Memory Artifacts&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;411-memory-artifacts&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#411-memory-artifacts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/05-custom-threat-hunting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/05-custom-threat-hunting/</guid>
+      <description>
+        
+        
+        &lt;p&gt;???&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/06-threat-hunting-in-cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/06-threat-hunting-in-cloud/</guid>
+      <description>
+        
+        
+        &lt;p&gt;???&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
