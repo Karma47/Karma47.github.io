@@ -36,8 +36,6 @@
   </url><url>
     <loc>http://localhost:1313/docs/01_methodology/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/threat-hunting/</loc>
-  </url><url>
     <loc>http://localhost:1313/docs/06_tools/06.2_network/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/02_platforms/</loc>
@@ -47,6 +45,8 @@
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/03_techniques/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/01_methodology/threat-hunting/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/01_methodology/web/</loc>
   </url><url>
