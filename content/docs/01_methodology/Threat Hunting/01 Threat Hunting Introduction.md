@@ -86,7 +86,7 @@ Threat Hunting Frameworks
 ##### 1.5.2 Unstructured Threat Hunting
 An unstructured hunt is more reactive than a structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.
 
-##### 1.8 Situational + Entity-Driven Threat Hunting
+##### 1.5.3 Situational + Entity-Driven Threat Hunting
 A situational hunt is a response to an organization’s unique situation. It is usually driven by the results of an internal [risk assessment](https://www.ibm.com/topics/risk-management) or a trends and vulnerabilities analysis of the IT environment.  
 
 Entity-driven hunts focus specifically on critical assets and systems in a network. Threat hunters identify cyberthreats that might pose a risk to these entities and search for signs of ongoing compromises.
