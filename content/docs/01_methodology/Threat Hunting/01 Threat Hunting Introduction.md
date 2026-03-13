@@ -71,7 +71,7 @@ In order to defend against such threats many leading security companies provide 
 |Compromise Assessment|A deep investigation to determine whether attackers are already present.|
 #### 1.5 Threat Hunting Types
 
-##### 1.6 Structured Threat Hunting
+##### 1.5.1 Structured Threat Hunting
 A structured threat hunting used formal frameworks, such as the [MITRE Adversary Tactics Techniques and Common Knowledge (ATT&CK) framework](https://www.ibm.com/think/topics/mitre-attack), guide structured hunts. They search for defined indicators of attack (IoA) and the tactics, techniques and procedures (TTPs) of known threat actors.
 
 Threat Hunting Frameworks
@@ -83,7 +83,7 @@ Threat Hunting Frameworks
 - [MITRE ATT&CK Based Hunting](https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf)
 
 ![](/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260313000913.png)
-##### 1.7 Unstructured Threat Hunting
+##### 1.5.2 Unstructured Threat Hunting
 An unstructured hunt is more reactive than a structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.
 
 ##### 1.8 Situational + Entity-Driven Threat Hunting
