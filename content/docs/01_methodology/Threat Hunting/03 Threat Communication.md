@@ -24,7 +24,7 @@ The above image is an example of how Threat Intelligence and Threat Hunting woul
 The FIRST **Traffic Light Protocol (TLP)** is a standardized framework used to classify and control the sharing of sensitive information. It helps organizations ensure that threat intelligence and security-related data are disseminated only to appropriate audiences, reducing the risk of unintended exposure.
 
 TLP uses a set of color-coded designations to indicate how widely information can be shared, making it simple and effective for operational use across security teams.
-###### TLP Classification Table (Markdown-Friendly)
+###### TLP Classification Table
 
 |TLP Level|Color|Description|Sharing Scope|
 |---|---|---|---|
