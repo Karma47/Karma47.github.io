@@ -8,6 +8,8 @@
   </url><url>
     <loc>http://localhost:1313/docs/01_methodology/threat-hunting/02-threat-actors/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-communication/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/02_platforms/web/web-application-enumeration/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/02_platforms/wifi/01-recon/</loc>
@@ -17,8 +19,6 @@
     <loc>http://localhost:1313/docs/04_playbooks/01-incident-response/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/06_tools/06.1_web/whois/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/draft/03-threat-communication/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/draft/04-hunting-with-data/</loc>
   </url><url>

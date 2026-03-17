@@ -48,6 +48,11 @@ def move_image(content_folder, rel_path):
     rel_path = rel_path.replace("%20", " ")
 
     src = os.path.normpath(os.path.join(content_folder, rel_path))
+    if not os.path.exists(src):
+        src = os.path.normpath(os.path.join(CONTENT_BASE, rel_path))
+        if not os.path.exists(src):
+            print(f"Warning: Image not found at {src}, skipping")
+            return None
 
     # Sanitize file name and directory segments for static output
     parts = rel_path.split("/")
@@ -55,7 +60,7 @@ def move_image(content_folder, rel_path):
         dirs, filename = parts[:-1], parts[-1]
         dirs = [sanitize_dir_segment(p) for p in dirs]
         filename = sanitize_file_segment(filename)
-        clean_rel = os.path.join(*(dirs + [filename]))
+        clean_rel = "/".join(dirs + [filename])
     else:
         clean_rel = sanitize_file_segment(parts[0])
 
@@ -81,8 +86,16 @@ def replace_image(match, md_dir):
     docs_rel_dir = get_docs_rel_dir(md_dir)
     clean_rel_path = move_image(md_dir, path)
 
-    # Keep path stable and safe for deployment
-    return f"![{alt}](/docs/{docs_rel_dir}/{clean_rel_path})"
+    if clean_rel_path is None:
+        return match.group(0)  # Skip if image not found
+
+    # Avoid duplicating the docs_rel_dir if already in clean_rel_path
+    if clean_rel_path.startswith(docs_rel_dir + "/"):
+        new_path = f"/docs/{clean_rel_path}"
+    else:
+        new_path = f"/docs/{docs_rel_dir}/{clean_rel_path}"
+
+    return f"![{alt}]({new_path})"
 
 
 def update_md(md_path):
