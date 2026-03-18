@@ -154,11 +154,11 @@ Here’s a simple **list of disclosure types**:
 
 The [Automated Responsible Disclosure of Security Vulnerabilities](https://ieeexplore.ieee.org/document/9606687) is a  solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency. 
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png)
+
 The ARD solution presented in the above mentioned paper tackles all the problems currently present in the Responsible disclosure approaches and possibly be a solution in the future. 
 ##### 3.2.2 Threat Intelligence Reporting
 The creation of structured and actionable reports that communicate threat insights (e.g., actors, TTPs, risks) tailored to different audiences such as executives, analysts, or SOC teams.
 
 There are a number of blueprints available to created automated threat intelligence reports, some of them are mentioned below.
 - [CTI Blueprint](https://center-for-threat-informed-defense.github.io/cti-blueprints/)
-
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png)
