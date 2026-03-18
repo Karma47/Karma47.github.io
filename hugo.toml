@@ -17,4 +17,4 @@ enableRobotsTXT = true
 uglyURLs = false              # creates foo/bar/index.html, not foo/bar.html
 
 [permalinks]
-  default = "/:sections/:filename/"
+  default = "/:sections/:contentbasename/"

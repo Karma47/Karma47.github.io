@@ -581,9 +581,8 @@ Ideally, when information is collected, it is categorized into different forms b
 <li>Hunting to generate intelligence</li>
 </ol>
 <p>The Pyramid of Pain address how difficult it if for attackers to mask certain characteristic during an attack, at the same time it&rsquo;s also difficult to hunt fir defenders. For instance writing a search query in <a href="https://www.splunk.com/"target="_blank" rel="noopener">Splunk</a> to hunt for a specific file has is relatively easy, while it&rsquo;s difficult to define a behaviors and hunt for those. On the other hand, a threat actor can mutate malware resulting in different file signatures, while the behavior of the malware would more or less be the similar to the original.</p>
-<p>
-    <img src="../01_methodology/Threat%20Hunting/assets/Pasted%20image%2020260318233556.png" alt=""  loading="lazy" />
-Here is an example of the Pain to attacker, Value to defender outlined.</p>
+<p><img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318233556.png" alt=""  loading="lazy" /></p>
+<p>Here is an example of the Pain to attacker, Value to defender outlined.</p>
 <table>
   <thead>
       <tr>
@@ -665,8 +664,7 @@ Here is an example of the Pain to attacker, Value to defender outlined.</p>
 <li>MISP, OpenCTI etc..
 A number of these intelligence providers support structured threat intelligence in a standardized format called <a href="https://oasis-open.github.io/cti-documentation/stix/intro.html"target="_blank" rel="noopener">STIX</a> which defines the objects for everything in JSON format, using <a href="https://oasis-open.github.io/cti-documentation/taxii/intro.html"target="_blank" rel="noopener">TAXII</a> a Trusted Automated Exchange of Intelligence Information protocol.</li>
 </ul>
-<p>
-    <img src="../01_methodology/Threat%20Hunting/assets/Pasted%20image%2020260318235614.png" alt=""  loading="lazy" /></p>
+<p><img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318235614.png" alt=""  loading="lazy" /></p>
 <p>TAXII requires two primary services to support intel sharing</p>
 <ol>
 <li>Collection - Interface to logical repository of CTI objects</li>
@@ -674,8 +672,7 @@ A number of these intelligence providers support structured threat intelligence 
 </ol>
 <p>In a nutshell STIX Defines what the data looks like, while TAXII Defines how the data is shared.</p>
 <p>The <a href="https://oasis-open.github.io/cti-stix-visualization/?url=https://raw.githubusercontent.com/oasis-open/cti-stix-visualization/master/test.json"target="_blank" rel="noopener">STIX Visualizer</a> allows us to rapidly visualize the STIX objects and their relationships. It consumes a Json object and maps out such that it&rsquo;s easily understandable for humans.</p>
-<p>
-    <img src="../01_methodology/Threat%20Hunting/assets/Pasted%20image%2020260319000021.png" alt=""  loading="lazy" /></p>
+<p><img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319000021.png" alt=""  loading="lazy" /></p>
 <p>Below is an example STIX JSON object in which a threat actor Disco Team operates primarily in Spanish and they have been known to steal credit card information for financial gain.</p>
 <div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 
@@ -777,17 +774,16 @@ Here’s a simple <strong>list of disclosure types</strong>:</p>
       </tr>
   </tbody>
 </table>
-<p>The <a href="https://ieeexplore.ieee.org/document/9606687"target="_blank" rel="noopener">Automated Responsible Disclosure of Security Vulnerabilities</a> is a  solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency.
-<img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png" alt=""  loading="lazy" />
-The ARD solution presented in the above mentioned paper tackles all the problems currently present in the Responsible disclosure approaches and possibly be a solution in the future.</p>
+<p>The <a href="https://ieeexplore.ieee.org/document/9606687"target="_blank" rel="noopener">Automated Responsible Disclosure of Security Vulnerabilities</a> is a  solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency.</p>
+<p><img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png" alt=""  loading="lazy" /></p>
+<p>The ARD solution presented in the above mentioned paper tackles all the problems currently present in the Responsible disclosure approaches and possibly be a solution in the future.</p>
 <h5>3.2.2 Threat Intelligence Reporting<span class="hx:absolute hx:-mt-20" id="322-threat-intelligence-reporting"></span>
     <a href="#322-threat-intelligence-reporting" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><p>The creation of structured and actionable reports that communicate threat insights (e.g., actors, TTPs, risks) tailored to different audiences such as executives, analysts, or SOC teams.</p>
 <p>There are a number of blueprints available to created automated threat intelligence reports, some of them are mentioned below.</p>
 <ul>
-<li><a href="https://center-for-threat-informed-defense.github.io/cti-blueprints/"target="_blank" rel="noopener">CTI Blueprint</a>
-
-    <img src="../01_methodology/Threat%20Hunting/assets/Pasted%20image%2020260319002702.png" alt=""  loading="lazy" /></li>
+<li><a href="https://center-for-threat-informed-defense.github.io/cti-blueprints/"target="_blank" rel="noopener">CTI Blueprint</a></li>
 </ul>
+<p><img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png" alt=""  loading="lazy" /></p>
 
         </div>
         <div class="hx:mt-16"></div><div class="hx:mb-8 hx:flex hx:items-center hx:border-t hx:pt-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-neutral-400 hx:dark:contrast-more:border-neutral-400 hx:print:hidden"><a

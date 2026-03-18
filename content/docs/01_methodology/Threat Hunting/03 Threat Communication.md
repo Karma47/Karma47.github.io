@@ -17,7 +17,9 @@ Based on this intelligence, the threat hunting team can proactively initiate inv
 
 Effectively communicating threat intelligence requires adherence to standardized procedures and protocols to ensure proper handling and dissemination. One of the most widely adopted frameworks for this purpose is the Traffic Light Protocol (TLP), which provides a simple and intuitive mechanism for classifying and sharing sensitive information.
 
+
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317231522.png)
+
 
 The above image is an example of how Threat Intelligence and Threat Hunting would fit into a cybersecurity operations process. The goal is to make sure that there is a strong feedback loop that flows back as a source into the pipeline. 
 ##### 3.1.1 Traffic Light Protocol
@@ -42,7 +44,9 @@ The goal of intelligence is to act as the following;
 
 The Pyramid of Pain address how difficult it if for attackers to mask certain characteristic during an attack, at the same time it's also difficult to hunt fir defenders. For instance writing a search query in [Splunk](https://www.splunk.com/) to hunt for a specific file has is relatively easy, while it's difficult to define a behaviors and hunt for those. On the other hand, a threat actor can mutate malware resulting in different file signatures, while the behavior of the malware would more or less be the similar to the original. 
 
+
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318233556.png)
+
 Here is an example of the Pain to attacker, Value to defender outlined. 
 
 | Level       | Example                     | Pain to Attacker | Value to Defender |
@@ -69,7 +73,9 @@ These structured threat intelligence can be obtained form various sources either
 - MISP, OpenCTI etc.. 
 A number of these intelligence providers support structured threat intelligence in a standardized format called [STIX](https://oasis-open.github.io/cti-documentation/stix/intro.html) which defines the objects for everything in JSON format, using [TAXII](https://oasis-open.github.io/cti-documentation/taxii/intro.html) a Trusted Automated Exchange of Intelligence Information protocol. 
 
+
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318235614.png)
+
 
 TAXII requires two primary services to support intel sharing
 1. Collection - Interface to logical repository of CTI objects
@@ -78,6 +84,7 @@ TAXII requires two primary services to support intel sharing
 In a nutshell STIX Defines what the data looks like, while TAXII Defines how the data is shared. 
 
 The [STIX Visualizer](https://oasis-open.github.io/cti-stix-visualization/?url=https://raw.githubusercontent.com/oasis-open/cti-stix-visualization/master/test.json) allows us to rapidly visualize the STIX objects and their relationships. It consumes a Json object and maps out such that it's easily understandable for humans. 
+
 
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319000021.png)
 
@@ -153,6 +160,7 @@ Here’s a simple **list of disclosure types**:
 | No Disclosure            | Keep the vulnerability entirely private.                            |
 
 The [Automated Responsible Disclosure of Security Vulnerabilities](https://ieeexplore.ieee.org/document/9606687) is a  solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency. 
+
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png)
 
 The ARD solution presented in the above mentioned paper tackles all the problems currently present in the Responsible disclosure approaches and possibly be a solution in the future. 
@@ -161,4 +169,5 @@ The creation of structured and actionable reports that communicate threat insigh
 
 There are a number of blueprints available to created automated threat intelligence reports, some of them are mentioned below.
 - [CTI Blueprint](https://center-for-threat-informed-defense.github.io/cti-blueprints/)
+
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png)
