@@ -183,8 +183,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "934e2cbc2384afdc",
+  "active": "21d95e75065a53af",
   "lastOpenFiles": [
+    "01_methodology/Threat Hunting/assets/Pasted image 20260319002702.png",
+    "01_methodology/Threat Hunting/assets/Pasted image 20260319000021.png",
+    "01_methodology/Threat Hunting/assets/Pasted image 20260318235614.png",
+    "01_methodology/Threat Hunting/assets/Pasted image 20260318233556.png",
     "01_methodology/Threat Hunting/assets/Pasted image 20260317233457.png",
     "01_methodology/Threat Hunting/assets/Pasted image 20260317232616.png",
     "01_methodology/Threat Hunting/assets/Pasted image 20260317232409.png",
@@ -196,10 +200,6 @@
     "01_methodology/Threat Hunting/01 Threat Hunting Introduction.md",
     "01_methodology/Threat Hunting/assets/Pasted image 20260314153921.png",
     "01_methodology/Threat Hunting/assets/Pasted image 20260314151116.png",
-    "01_methodology/Threat Hunting/assets/Pasted image 20260314151040.png",
-    "01_methodology/Threat Hunting/assets/Pasted image 20260314145910.png",
-    "01_methodology/Threat Hunting/assets/Pasted image 20260313000913.png",
-    "01_methodology/Threat Hunting/assets/Pasted image 20260312234325.png",
     "01_methodology/_index.md",
     "_index.md",
     "06_tools/06.1_web/Whois.md",
