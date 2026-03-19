@@ -10,7 +10,7 @@ authors: ["Prasanna"]
 The threat actors can be categorized based on their motivations, skillsets and other attributes that they might have.  Typically we can think of a target and motivation, which will paint a picture about the nature of a threat actor. 
 
 These threat actors are strategic and methodical in executing their attack chain. According to [Mandiant Targeted attack life cycle](https://cloud.google.com/security/resources/insights/targeted-attack-lifecycle), these predictable sequence of event.  
-![](![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314145910.png)
+![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314145910.png)
 ##### 2.1.1 Different types of targets or motivations:
 1. A threat actor may target an individual for reasons such as personal revenge, defamation, or financial gain.
 2. They may also target a group or organization to gain a business advantage, engage in corporate rivalry, steal intellectual property, or obtain financial benefits.
