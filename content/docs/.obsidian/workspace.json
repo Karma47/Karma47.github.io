@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "01_methodology/Threat Hunting/03 Threat Communication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "03 Threat Communication"
             }
           }
         ],
@@ -256,12 +256,12 @@
   },
   "active": "a293e93b92052fde",
   "lastOpenFiles": [
-    "01_methodology/Threat Hunting/06 Threat Hunting in Cloud.md",
-    "01_methodology/Threat Hunting/05 Custom Threat Hunting.md",
     "01_methodology/Threat Hunting/04 Hunting with Data.md",
+    "01_methodology/Threat Hunting/05 Custom Threat Hunting.md",
+    "_index.md",
+    "01_methodology/Threat Hunting/06 Threat Hunting in Cloud.md",
     "01_methodology/Threat Hunting/01 Threat Hunting Introduction.md",
     "01_methodology/Threat Hunting/02 Threat Actors.md",
-    "_index.md",
     "{{.md",
     "01_methodology/Threat Hunting/03 Threat Communication.md",
     "01_methodology/Threat Hunting/assets/Pasted image 20260319162729.png",

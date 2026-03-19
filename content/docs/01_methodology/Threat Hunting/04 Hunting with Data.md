@@ -1,3 +1,12 @@
+---
+title: "[03] Hunting with Data"
+date: 2026-03-19
+authors: ["Prasanna"]
+draft: true
+---
+
+{{< meta >}}
+
 #### 4.1 Data types
 
 #### 4.2 Network Data
