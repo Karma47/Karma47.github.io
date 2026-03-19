@@ -1,3 +1,12 @@
+---
+title: "[06] Threat Hunting in Cloud"
+date: 2026-03-19
+authors: ["Prasanna"]
+draft: true
+---
+
+{{< meta >}}
+
 #### Passive Information gathering
 - As part of passive information gathering, we can use the OSINT tools to gather information from a web application. 
 

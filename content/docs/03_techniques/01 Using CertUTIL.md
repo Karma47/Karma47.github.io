@@ -1,3 +1,12 @@
+---
+title: "[06] Threat Hunting in Cloud"
+date: 2026-03-19
+authors: ["Prasanna"]
+draft: true
+---
+
+{{< meta >}}
+
 #### 01 Hosting file in Attacker Machine
 - Host your payload in your `Pentest` Machine
 ```bash

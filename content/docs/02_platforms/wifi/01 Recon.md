@@ -1,3 +1,12 @@
+---
+title: "[06] Threat Hunting in Cloud"
+date: 2026-03-19
+authors: ["Prasanna"]
+draft: true
+---
+
+{{< meta >}}
+
 #### 01. What is the channel that the wifi-global Access Point is currently using?
 
 - Setup the wifi adapter in monitor mode and verify the setup
