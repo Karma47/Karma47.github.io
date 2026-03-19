@@ -1,3 +1,11 @@
+---
+title: "[01] Threat Hunting Introduction"
+date: 2026-03-19
+authors: ["Prasanna"]
+---
+
+{{< meta >}}
+
 #### 1.1 What is threat hunting ?
 Threat hunting is a process in which a blue team engages in search of anomalies that indicate a compromise within an enterprise organization. The threat hunters assume a `hypotheses` which provides context on what to look for. The below are some of the other definitions are accepted.  
 - **Palo Alto Networks**  
@@ -24,7 +32,7 @@ The threat hunting process itself is complimentary to the standard incident dete
 
 The below image represents the complimentary threat hunting positioning in an enterprise infrastructure. 
 - [Crowdstrike Threat Hunting Process](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-hunting/)
-![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312231306.png)
+![]({{ "docs/01_methodolog![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312231306.png)
 
 In a nutshell, the SOC Infrastructure will monitor for alters, triage information and classify them as Events (or) Incidents. Upon classification, an associated process will be triggered for instance an "Incident" will trigger an incident response process. Threat Hunting, however is a cyclic process, where it an organization is assumed breach. Upon a successful threat hunt, the identified threats will be submitted to the SOC, which will trigger an incident response if it meets the criteria for an Incident. 
 
@@ -83,10 +91,10 @@ Threat Hunting Frameworks
 - [MITRE ATT&CK Based Hunting](https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf)
 
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260313000913.png)
-##### 1.5.2 Unstructured Threat Hunting
-An unstructured hunt is more reactive than a structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.
+structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.
 
 ##### 1.5.3 Situational + Entity-Driven Threat Hunting
 A situational hunt is a response to an organization’s unique situation. It is usually driven by the results of an internal [risk assessment](https://www.ibm.com/topics/risk-management) or a trends and vulnerabilities analysis of the IT environment.  
 
 Entity-driven hunts focus specifically on critical assets and systems in a network. Threat hunters identify cyberthreats that might pose a risk to these entities and search for signs of ongoing compromises.
+

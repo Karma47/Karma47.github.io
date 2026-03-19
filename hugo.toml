@@ -18,3 +18,8 @@ uglyURLs = false              # creates foo/bar/index.html, not foo/bar.html
 
 [permalinks]
   default = "/:sections/:contentbasename/"
+  authors = "/authors/:slug/"
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
