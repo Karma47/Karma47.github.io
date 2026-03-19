@@ -32,8 +32,7 @@ The threat hunting process itself is complimentary to the standard incident dete
 
 The below image represents the complimentary threat hunting positioning in an enterprise infrastructure. 
 - [Crowdstrike Threat Hunting Process](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-hunting/)
-![]({{ "docs/01_methodolog![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312231306.png)
-
+![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312231306.png)
 In a nutshell, the SOC Infrastructure will monitor for alters, triage information and classify them as Events (or) Incidents. Upon classification, an associated process will be triggered for instance an "Incident" will trigger an incident response process. Threat Hunting, however is a cyclic process, where it an organization is assumed breach. Upon a successful threat hunt, the identified threats will be submitted to the SOC, which will trigger an incident response if it meets the criteria for an Incident. 
 
 More or less, threat hunting is like looking for **smoke before a fire**. Due to this nature, a threat hint doesn't wait for an alert signals, instructions, alarms or event indicators of compromise, but rather questions everything form a hypothesis, and try to prove or disprove the original hypothesis. 

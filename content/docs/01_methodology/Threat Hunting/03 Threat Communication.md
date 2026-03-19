@@ -170,8 +170,3 @@ There are a number of blueprints available to created automated threat intellige
 - [CTI Blueprint](https://center-for-threat-informed-defense.github.io/cti-blueprints/)
 
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png)
-
----
-title: "Test Page"
-author_id: "john"
----
