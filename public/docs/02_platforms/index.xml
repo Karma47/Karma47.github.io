@@ -5,6 +5,7 @@
     <description>Recent content in Platforms on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/docs/02_platforms/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +18,7 @@
     <item>
       <title>web</title>
       <link>http://localhost:1313/docs/02_platforms/web/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/docs/02_platforms/web/</guid>
       <description>
@@ -32,7 +33,7 @@
     <item>
       <title>WI-FU</title>
       <link>http://localhost:1313/docs/02_platforms/wifi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/docs/02_platforms/wifi/</guid>
       <description>

@@ -8,10 +8,10 @@
 <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
-<title>[03] Threat Communication – RTFM</title>
-  <meta name="description" content="By:Prasanna|March 19, 20263.1 Information collection - InboundContinuous information collection is essential for enabling real-time threat monitoring within an organization. The data collected through this process feeds into threat intelligence feeds and the Threat Intelligence Platform (TIP). Once ingested into the TIP, the information is systematically classified and enriched, allowing it to be effectively leveraged for threat hunting activities." /><link rel="canonical" href="http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-communication/" itemprop="url" />
+<title>[06] Threat Hunting in Cloud – RTFM</title>
+  <meta name="description" content="By:Prasanna|March 19, 20267.1 What is a trust boundary7.2 Humans in parallel to Kernel Privilege Rings7.3 Penetrating human trust boundary7.4 Anomalies of a social threat actor7.5 Action on objective7.6 Defending against social engineering threats7.7 The Stockholm syndrome7.8 Breaking the pattern - Invisible chain7.9 Identifying and mitigate a compromise7.10 Face the truth, Conclusion" /><link rel="canonical" href="http://localhost:1313/docs/01_methodology/threat-hunting/07-psychology-of-trust-boundary/" itemprop="url" />
 
-<meta property="og:title" content="[03] Threat Communication">
+<meta property="og:title" content="[06] Threat Hunting in Cloud">
 <meta
   property="og:description"
   content="
@@ -47,8 +47,17 @@
     March 19, 2026
   
 
-3.1 Information collection - Inbound
-    Continuous information collection is essential for enabling real-time threat monitoring within an organization. The data collected through this process feeds into threat intelligence feeds and the Threat Intelligence Platform (TIP). Once ingested into the TIP, the information is systematically classified and enriched, allowing it to be effectively leveraged for threat hunting activities.
+7.1 What is a trust boundary
+    7.2 Humans in parallel to Kernel Privilege Rings
+    7.3 Penetrating human trust boundary
+    7.4 Anomalies of a social threat actor
+    7.5 Action on objective
+    7.6 Defending against social engineering threats
+    7.7 The Stockholm syndrome
+    7.8 Breaking the pattern - Invisible chain
+    7.9 Identifying and mitigate a compromise
+    7.10 Face the truth, Conclusion
+    
     
   ">
 <meta
@@ -56,7 +65,7 @@
   content="
     article
   ">
-<meta property="og:url" content="http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-communication/"><meta property="article:section" content="docs">
+<meta property="og:url" content="http://localhost:1313/docs/01_methodology/threat-hunting/07-psychology-of-trust-boundary/"><meta property="article:section" content="docs">
 
 <meta
   property="article:published_time"
@@ -69,15 +78,15 @@
 
 
 
-  <meta itemprop="name" content="[03] Threat Communication">
-  <meta itemprop="description" content="By:Prasanna|March 19, 20263.1 Information collection - InboundContinuous information collection is essential for enabling real-time threat monitoring within an organization. The data collected through this process feeds into threat intelligence feeds and the Threat Intelligence Platform (TIP). Once ingested into the TIP, the information is systematically classified and enriched, allowing it to be effectively leveraged for threat hunting activities.">
+  <meta itemprop="name" content="[06] Threat Hunting in Cloud">
+  <meta itemprop="description" content="By:Prasanna|March 19, 20267.1 What is a trust boundary7.2 Humans in parallel to Kernel Privilege Rings7.3 Penetrating human trust boundary7.4 Anomalies of a social threat actor7.5 Action on objective7.6 Defending against social engineering threats7.7 The Stockholm syndrome7.8 Breaking the pattern - Invisible chain7.9 Identifying and mitigate a compromise7.10 Face the truth, Conclusion">
   <meta itemprop="datePublished" content="2026-03-19T00:00:00+00:00">
   <meta itemprop="dateModified" content="2026-03-19T00:00:00+00:00">
-  <meta itemprop="wordCount" content="1309">
+  <meta itemprop="wordCount" content="64">
   <meta itemprop="keywords" content="Prasanna V Balaji">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="[03] Threat Communication">
-  <meta name="twitter:description" content="By:Prasanna|March 19, 20263.1 Information collection - InboundContinuous information collection is essential for enabling real-time threat monitoring within an organization. The data collected through this process feeds into threat intelligence feeds and the Threat Intelligence Platform (TIP). Once ingested into the TIP, the information is systematically classified and enriched, allowing it to be effectively leveraged for threat hunting activities.">
+  <meta name="twitter:title" content="[06] Threat Hunting in Cloud">
+  <meta name="twitter:description" content="By:Prasanna|March 19, 20267.1 What is a trust boundary7.2 Humans in parallel to Kernel Privilege Rings7.3 Penetrating human trust boundary7.4 Anomalies of a social threat actor7.5 Action on objective7.6 Defending against social engineering threats7.7 The Stockholm syndrome7.8 Breaking the pattern - Invisible chain7.9 Identifying and mitigate a compromise7.10 Face the truth, Conclusion">
 <link href="/css/compiled/main.css" rel="stylesheet" />
     <link href="/css/variables.css" rel="stylesheet" />
     <link href="/css/custom.css" rel="stylesheet" />
@@ -245,11 +254,11 @@
     </a>
   </div>
               
-            </li><li class="hx:flex hx:flex-col open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="true">
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
-        hextra-sidebar-active-item hx:bg-primary-100 hx:font-semibold hx:text-primary-800 hx:contrast-more:border hx:contrast-more:border-primary-500 hx:dark:bg-primary-400/10 hx:dark:text-primary-600 hx:contrast-more:dark:border-primary-500"
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
       href="/docs/01_methodology/threat-hunting/03-threat-communication/"
       
     >
@@ -281,11 +290,11 @@
     </a>
   </div>
               
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+            </li><li class="hx:flex hx:flex-col open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="true">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+        hextra-sidebar-active-item hx:bg-primary-100 hx:font-semibold hx:text-primary-800 hx:contrast-more:border hx:contrast-more:border-primary-500 hx:dark:bg-primary-400/10 hx:dark:text-primary-600 hx:contrast-more:dark:border-primary-500"
       href="/docs/01_methodology/threat-hunting/07-psychology-of-trust-boundary/"
       
     >
@@ -525,31 +534,43 @@
 <nav class="hextra-toc hx:order-last hx:hidden hx:w-64 hx:shrink-0 hx:xl:block hx:print:hidden hx:px-4" aria-label="Table of contents">
     <div class="hextra-scrollbar hx:sticky hx:top-16 hx:overflow-y-auto hx:pr-4 hx:pt-6 hx:text-sm [hyphens:auto] hx:max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] hx:ltr:-mr-4 hx:rtl:-ml-4"><p class="hx:mb-4 hx:font-semibold hx:tracking-tight">On this page</p><ul>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#31-information-collection---inbound">3.1 Information collection - Inbound
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#71-what-is-a-trust-boundary">7.1 What is a trust boundary
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#311-traffic-light-protocol">3.1.1 Traffic Light Protocol
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#72-humans-in-parallel-to-kernel-privilege-rings">7.2 Humans in parallel to Kernel Privilege Rings
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-16 hx:rtl:pr-16 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#tlp-classification-table">TLP Classification Table
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#73-penetrating-human-trust-boundary">7.3 Penetrating human trust boundary
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#312-intelligence-feeds">3.1.2 Intelligence feeds
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#74-anomalies-of-a-social-threat-actor">7.4 Anomalies of a social threat actor
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#32-information-dissemination">3.2 Information Dissemination
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#75-action-on-objective">7.5 Action on objective
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#321-disclosure-protocols">3.2.1 Disclosure Protocols
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#76-defending-against-social-engineering-threats">7.6 Defending against social engineering threats
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#322-threat-intelligence-reporting">3.2.2 Threat Intelligence Reporting
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#77-the-stockholm-syndrome">7.7 The Stockholm syndrome
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#78-breaking-the-pattern---invisible-chain">7.8 Breaking the pattern - Invisible chain
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#79-identifying-and-mitigate-a-compromise">7.9 Identifying and mitigate a compromise
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#710-face-the-truth-conclusion">7.10 Face the truth, Conclusion
         </a>
       </li></ul>
       <div class="hx:mt-8 hx:border-t hx:bg-white hx:pt-8 hx:shadow-[0_-12px_16px_white] hx:dark:bg-dark hx:dark:shadow-[0_-12px_16px_#111] hx:sticky hx:bottom-0 hx:flex hx:flex-col hx:items-start hx:gap-2 hx:pb-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-t hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:border-neutral-400">
@@ -575,13 +596,13 @@
         </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         <div class="hx:whitespace-nowrap hx:transition-colors hx:min-w-[24px] hx:overflow-hidden hx:text-ellipsis hx:hover:text-gray-900 hx:dark:hover:text-gray-100">
           <a href="/docs/01_methodology/threat-hunting/" class="hx:inline-block hx:rounded-sm hx:hextra-focus-visible-inset">Threat Hunting</a>
-        </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx:whitespace-nowrap hx:transition-colors hx:font-medium hx:text-gray-700 hx:contrast-more:font-bold hx:contrast-more:text-current hx:dark:text-gray-100 hx:contrast-more:dark:text-current">[03] Threat Communication</div>
+        </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx:whitespace-nowrap hx:transition-colors hx:font-medium hx:text-gray-700 hx:contrast-more:font-bold hx:contrast-more:text-current hx:dark:text-gray-100 hx:contrast-more:dark:text-current">[06] Threat Hunting in Cloud</div>
   </div>
 
         <div class="content">
           
           <div class="hx:flex hx:flex-col hx:sm:flex-row hx:items-start hx:sm:items-center hx:sm:justify-between hx:gap-4 hx:mb-4">
-            <h1 class="hx:mb-0">[03] Threat Communication</h1>
+            <h1 class="hx:mb-0">[06] Threat Hunting in Cloud</h1>
             
           </div>
           
@@ -616,286 +637,27 @@
     <time style="font-style: italic;">March 19, 2026</time>
   
 </div>
-<h4>3.1 Information collection - Inbound<span class="hx:absolute hx:-mt-20" id="31-information-collection---inbound"></span>
-    <a href="#31-information-collection---inbound" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>Continuous information collection is essential for enabling real-time threat monitoring within an organization. The data collected through this process feeds into threat intelligence feeds and the Threat Intelligence Platform (TIP). Once ingested into the TIP, the information is systematically classified and enriched, allowing it to be effectively leveraged for threat hunting activities.</p>
-<p>Ideally, when information is collected, it is categorized into different forms based on its context and level of analysis. These classifications typically include:</p>
-<ul>
-<li><strong>Information</strong> – Raw data (e.g., telemetry, logs)</li>
-<li><strong>Event</strong> – An observable occurrence or subject of interest</li>
-<li><strong>Threat</strong> – A potential cause of an incident or source of danger</li>
-<li><strong>Intelligence</strong> – Processed, contextualized, and actionable information</li>
-<li><strong>Incident</strong> – A confirmed security breach or adverse impact</li>
-<li><strong>Weakness</strong> – A design or implementation flaw</li>
-<li><strong>Vulnerability</strong> – An exploitable weakness</li>
-</ul>
-<p>The primary focus in this context is <strong>intelligence</strong>, which may encompass elements from multiple classifications listed above. For example, an intelligence report may describe a threat actor leveraging specific Tactics, Techniques, and Procedures (TTPs) to exploit identified weaknesses in target environments—weaknesses that may also exist within your organization’s network or products. In such a scenario, the intelligence contains a combination of information, threats, and weaknesses.</p>
-<p>Based on this intelligence, the threat hunting team can proactively initiate investigations to identify potential indicators of compromise or ongoing attacks within the environment.</p>
-<p>Effectively communicating threat intelligence requires adherence to standardized procedures and protocols to ensure proper handling and dissemination. One of the most widely adopted frameworks for this purpose is the Traffic Light Protocol (TLP), which provides a simple and intuitive mechanism for classifying and sharing sensitive information.</p>
-<p><img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317231522.png" alt=""  loading="lazy" /></p>
-<p>The above image is an example of how Threat Intelligence and Threat Hunting would fit into a cybersecurity operations process. The goal is to make sure that there is a strong feedback loop that flows back as a source into the pipeline.</p>
-<h5>3.1.1 Traffic Light Protocol<span class="hx:absolute hx:-mt-20" id="311-traffic-light-protocol"></span>
-    <a href="#311-traffic-light-protocol" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><p>The FIRST <strong>Traffic Light Protocol (TLP)</strong> is a standardized framework used to classify and control the sharing of sensitive information. It helps organizations ensure that threat intelligence and security-related data are disseminated only to appropriate audiences, reducing the risk of unintended exposure.</p>
-<p>TLP uses a set of color-coded designations to indicate how widely information can be shared, making it simple and effective for operational use across security teams.</p>
-<h6>TLP Classification Table<span class="hx:absolute hx:-mt-20" id="tlp-classification-table"></span>
-    <a href="#tlp-classification-table" class="subheading-anchor" aria-label="Permalink for this section"></a></h6><table>
-  <thead>
-      <tr>
-          <th>TLP Level</th>
-          <th>Color</th>
-          <th>Description</th>
-          <th>Sharing Scope</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>TLP:RED</strong></td>
-          <td>🔴 Red</td>
-          <td>Highly sensitive information</td>
-          <td>Restricted to specific individuals only</td>
-      </tr>
-      <tr>
-          <td><strong>TLP:AMBER</strong></td>
-          <td>🟠 Orange</td>
-          <td>Sensitive information with limited risk</td>
-          <td>Shared within the organization or trusted parties</td>
-      </tr>
-      <tr>
-          <td><strong>TLP:GREEN</strong></td>
-          <td>🟢 Green</td>
-          <td>Information useful for awareness</td>
-          <td>Shared within the community but not public</td>
-      </tr>
-      <tr>
-          <td><strong>TLP:CLEAR</strong> <em>(formerly WHITE)</em></td>
-          <td>⚪ White</td>
-          <td>Non-sensitive information</td>
-          <td>Can be shared publicly</td>
-      </tr>
-  </tbody>
-</table>
-<h5>3.1.2 Intelligence feeds<span class="hx:absolute hx:-mt-20" id="312-intelligence-feeds"></span>
-    <a href="#312-intelligence-feeds" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><p>According to <a href="https://www.betaalvereniging.nl/wp-content/uploads/2026/03/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf"target="_blank" rel="noopener">TaHiTI </a> Threat intelligence is the process of gathering, processing and dissemination of information about threats and attackers. The goal of threat intelligence is to contextualize the information and to deliver actionable information that can be used int he decision-making process.</p>
-<p>The goal of intelligence is to act as the following;</p>
-<ol>
-<li>Starting point for hunting</li>
-<li>Contextualizing and driving the hunt</li>
-<li>Hunting to generate intelligence</li>
-</ol>
-<p>The Pyramid of Pain address how difficult it if for attackers to mask certain characteristic during an attack, at the same time it&rsquo;s also difficult to hunt fir defenders. For instance writing a search query in <a href="https://www.splunk.com/"target="_blank" rel="noopener">Splunk</a> to hunt for a specific file has is relatively easy, while it&rsquo;s difficult to define a behaviors and hunt for those. On the other hand, a threat actor can mutate malware resulting in different file signatures, while the behavior of the malware would more or less be the similar to the original.</p>
-<p><img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318233556.png" alt=""  loading="lazy" />
-Here is an example of the Pain to attacker, Value to defender outlined.</p>
-<table>
-  <thead>
-      <tr>
-          <th>Level</th>
-          <th>Example</th>
-          <th>Pain to Attacker</th>
-          <th>Value to Defender</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Hashes</td>
-          <td>File hash</td>
-          <td>Very low</td>
-          <td>Low</td>
-      </tr>
-      <tr>
-          <td>IPs/Domains</td>
-          <td>C2 server</td>
-          <td>Low</td>
-          <td>Low</td>
-      </tr>
-      <tr>
-          <td>Tools</td>
-          <td>Mimikatz</td>
-          <td>Medium</td>
-          <td>Medium</td>
-      </tr>
-      <tr>
-          <td>TTPs</td>
-          <td>Credential dumping behavior</td>
-          <td>High</td>
-          <td>High</td>
-      </tr>
-  </tbody>
-</table>
-<p>Hence, The Pyramid of Pain is important because it shifts threat intelligence from <strong>reactive blocking</strong> to <strong>strategic disruption</strong> which is exactly what mature threat hunting and intelligence programs aim for.</p>
-<p>Based on the value to the defenders, the threat intelligence feeds can be classified into the four categories, each targeting different sets of audiences.</p>
-<table>
-  <thead>
-      <tr>
-          <th>Level</th>
-          <th>Focus</th>
-          <th>Audience</th>
-          <th>Example</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Strategic</td>
-          <td>Why</td>
-          <td>Executives</td>
-          <td>Industry targeted by APT</td>
-      </tr>
-      <tr>
-          <td>Operational</td>
-          <td>How (campaigns)</td>
-          <td>Managers</td>
-          <td>Ransomware campaign flow</td>
-      </tr>
-      <tr>
-          <td>Tactical</td>
-          <td>Techniques (TTPs)</td>
-          <td>Analysts</td>
-          <td>Credential dumping method</td>
-      </tr>
-      <tr>
-          <td>Technical</td>
-          <td>Indicators (IOCs)</td>
-          <td>Tools/SOC</td>
-          <td>Malicious IP/hash</td>
-      </tr>
-  </tbody>
-</table>
-<p>These structured threat intelligence can be obtained form various sources either public or private.  There are threat intelligence providers and communities that share intelligence data such as</p>
-<ul>
-<li>ISAC (IT-ISAC, OT-ISAC, AUTO-ISAC, A-ISAC, E-ISAC, etc.. )</li>
-<li>Cyware, Recorded Future, Feedly etc..</li>
-<li>MISP, OpenCTI etc..
-A number of these intelligence providers support structured threat intelligence in a standardized format called <a href="https://oasis-open.github.io/cti-documentation/stix/intro.html"target="_blank" rel="noopener">STIX</a> which defines the objects for everything in JSON format, using <a href="https://oasis-open.github.io/cti-documentation/taxii/intro.html"target="_blank" rel="noopener">TAXII</a> a Trusted Automated Exchange of Intelligence Information protocol.</li>
-</ul>
-<p><img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318235614.png" alt=""  loading="lazy" /></p>
-<p>TAXII requires two primary services to support intel sharing</p>
-<ol>
-<li>Collection - Interface to logical repository of CTI objects</li>
-<li>Channel - Allows producers to push data to many consumers.</li>
-</ol>
-<p>In a nutshell STIX Defines what the data looks like, while TAXII Defines how the data is shared.</p>
-<p>The <a href="https://oasis-open.github.io/cti-stix-visualization/?url=https://raw.githubusercontent.com/oasis-open/cti-stix-visualization/master/test.json"target="_blank" rel="noopener">STIX Visualizer</a> allows us to rapidly visualize the STIX objects and their relationships. It consumes a Json object and maps out such that it&rsquo;s easily understandable for humans.</p>
-<p><img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319000021.png" alt=""  loading="lazy" /></p>
-<p>Below is an example STIX JSON object in which a threat actor Disco Team operates primarily in Spanish and they have been known to steal credit card information for financial gain.</p>
-<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-
-<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;bundle&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="s2">&#34;bundle--601cee35-6b16-4e68-a3e7-9ec7d755b4c3&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="nt">&#34;objects&#34;</span><span class="p">:</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;threat-actor&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;spec_version&#34;</span><span class="p">:</span> <span class="s2">&#34;2.1&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="s2">&#34;threat-actor--dfaa8d77-07e2-4e28-b2c8-92e9f7b04428&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;created&#34;</span><span class="p">:</span> <span class="s2">&#34;2014-11-19T23:39:03.893Z&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;modified&#34;</span><span class="p">:</span> <span class="s2">&#34;2014-11-19T23:39:03.893Z&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Disco Team Threat Actor Group&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;description&#34;</span><span class="p">:</span> <span class="s2">&#34;This organized threat actor group operates to create profit from all types of crime.&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;threat_actor_types&#34;</span><span class="p">:</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">                <span class="s2">&#34;crime-syndicate&#34;</span>
-</span></span><span class="line"><span class="cl">            <span class="p">],</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;aliases&#34;</span><span class="p">:</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">                <span class="s2">&#34;Equipo del Discoteca&#34;</span>
-</span></span><span class="line"><span class="cl">            <span class="p">],</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;roles&#34;</span><span class="p">:</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">                <span class="s2">&#34;agent&#34;</span>
-</span></span><span class="line"><span class="cl">            <span class="p">],</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;goals&#34;</span><span class="p">:</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">                <span class="s2">&#34;Steal Credit Card Information&#34;</span>
-</span></span><span class="line"><span class="cl">            <span class="p">],</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;sophistication&#34;</span><span class="p">:</span> <span class="s2">&#34;expert&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;resource_level&#34;</span><span class="p">:</span> <span class="s2">&#34;organization&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;primary_motivation&#34;</span><span class="p">:</span> <span class="s2">&#34;personal-gain&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">},</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;identity&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;spec_version&#34;</span><span class="p">:</span> <span class="s2">&#34;2.1&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="s2">&#34;identity--733c5838-34d9-4fbf-949c-62aba761184c&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;created&#34;</span><span class="p">:</span> <span class="s2">&#34;2016-08-23T18:05:49.307Z&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;modified&#34;</span><span class="p">:</span> <span class="s2">&#34;2016-08-23T18:05:49.307Z&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Disco Team&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;description&#34;</span><span class="p">:</span> <span class="s2">&#34;Disco Team is the name of an organized threat actor crime-syndicate.&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;identity_class&#34;</span><span class="p">:</span> <span class="s2">&#34;organization&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;contact_information&#34;</span><span class="p">:</span> <span class="s2">&#34;disco-team@stealthemail.com&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">},</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;relationship&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;spec_version&#34;</span><span class="p">:</span> <span class="s2">&#34;2.1&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="s2">&#34;relationship--a2e3efb5-351d-4d46-97a0-6897ee7c77a0&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;created&#34;</span><span class="p">:</span> <span class="s2">&#34;2020-02-29T18:01:28.577Z&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;modified&#34;</span><span class="p">:</span> <span class="s2">&#34;2020-02-29T18:01:28.577Z&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;relationship_type&#34;</span><span class="p">:</span> <span class="s2">&#34;attributed-to&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;source_ref&#34;</span><span class="p">:</span> <span class="s2">&#34;threat-actor--dfaa8d77-07e2-4e28-b2c8-92e9f7b04428&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">            <span class="nt">&#34;target_ref&#34;</span><span class="p">:</span> <span class="s2">&#34;identity--733c5838-34d9-4fbf-949c-62aba761184c&#34;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-  <button
-    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-    title="Copy code"
-    aria-label="Copy code"
-    data-copied-label="Copied!"
-  >
-    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
-<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
-  </button>
-</div>
-</div>
-<p>Either by collecting large pool of raw data or by aggregating a standardized STIX data and analyzing them would result in a reasonable threat intelligence coverage.  The coverage for intelligence will have to be evaluated periodically to enhance the threat intel capabilities and there really is no defined end game to it.</p>
-<h4>3.2 Information Dissemination<span class="hx:absolute hx:-mt-20" id="32-information-dissemination"></span>
-    <a href="#32-information-dissemination" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>The process of sharing threat intelligence with the right stakeholders in a timely and structured manner to support decision making and defensive actions.</p>
-<h5>3.2.1 Disclosure Protocols<span class="hx:absolute hx:-mt-20" id="321-disclosure-protocols"></span>
-    <a href="#321-disclosure-protocols" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><p>Guidelines and standards that control how and with whom information is shared, ensuring sensitive data is distributed securely commonly using frameworks like Traffic Light Protocol.
-Here’s a simple <strong>list of disclosure types</strong>:</p>
-<table>
-  <thead>
-      <tr>
-          <th>Disclosure Type</th>
-          <th>Definition</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Full Disclosure</td>
-          <td>Release all details publicly immediately.</td>
-      </tr>
-      <tr>
-          <td>Coordinated Disclosure</td>
-          <td>Share with the vendor first, then publicize after a fix.</td>
-      </tr>
-      <tr>
-          <td>Responsible Disclosure</td>
-          <td>Ethical variant of coordinated disclosure prioritizing user safety.</td>
-      </tr>
-      <tr>
-          <td>Discretionary Disclosure</td>
-          <td>Researcher decides what, when, and with whom to share.</td>
-      </tr>
-      <tr>
-          <td>No Disclosure</td>
-          <td>Keep the vulnerability entirely private.</td>
-      </tr>
-  </tbody>
-</table>
-<p>The <a href="https://ieeexplore.ieee.org/document/9606687"target="_blank" rel="noopener">Automated Responsible Disclosure of Security Vulnerabilities</a> is a  solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency.
-<img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png" alt=""  loading="lazy" />
-The ARD solution presented in the above mentioned paper tackles all the problems currently present in the Responsible disclosure approaches and possibly be a solution in the future.</p>
-<h5>3.2.2 Threat Intelligence Reporting<span class="hx:absolute hx:-mt-20" id="322-threat-intelligence-reporting"></span>
-    <a href="#322-threat-intelligence-reporting" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><p>The creation of structured and actionable reports that communicate threat insights (e.g., actors, TTPs, risks) tailored to different audiences such as executives, analysts, or SOC teams.</p>
-<p>There are a number of blueprints available to created automated threat intelligence reports, some of them are mentioned below.</p>
-<ul>
-<li><a href="https://center-for-threat-informed-defense.github.io/cti-blueprints/"target="_blank" rel="noopener">CTI Blueprint</a></li>
-</ul>
-<p><img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png" alt=""  loading="lazy" /></p>
-
+<h4>7.1 What is a trust boundary<span class="hx:absolute hx:-mt-20" id="71-what-is-a-trust-boundary"></span>
+    <a href="#71-what-is-a-trust-boundary" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.2 Humans in parallel to Kernel Privilege Rings<span class="hx:absolute hx:-mt-20" id="72-humans-in-parallel-to-kernel-privilege-rings"></span>
+    <a href="#72-humans-in-parallel-to-kernel-privilege-rings" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.3 Penetrating human trust boundary<span class="hx:absolute hx:-mt-20" id="73-penetrating-human-trust-boundary"></span>
+    <a href="#73-penetrating-human-trust-boundary" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.4 Anomalies of a social threat actor<span class="hx:absolute hx:-mt-20" id="74-anomalies-of-a-social-threat-actor"></span>
+    <a href="#74-anomalies-of-a-social-threat-actor" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.5 Action on objective<span class="hx:absolute hx:-mt-20" id="75-action-on-objective"></span>
+    <a href="#75-action-on-objective" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.6 Defending against social engineering threats<span class="hx:absolute hx:-mt-20" id="76-defending-against-social-engineering-threats"></span>
+    <a href="#76-defending-against-social-engineering-threats" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.7 The Stockholm syndrome<span class="hx:absolute hx:-mt-20" id="77-the-stockholm-syndrome"></span>
+    <a href="#77-the-stockholm-syndrome" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.8 Breaking the pattern - Invisible chain<span class="hx:absolute hx:-mt-20" id="78-breaking-the-pattern---invisible-chain"></span>
+    <a href="#78-breaking-the-pattern---invisible-chain" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.9 Identifying and mitigate a compromise<span class="hx:absolute hx:-mt-20" id="79-identifying-and-mitigate-a-compromise"></span>
+    <a href="#79-identifying-and-mitigate-a-compromise" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.10 Face the truth, Conclusion<span class="hx:absolute hx:-mt-20" id="710-face-the-truth-conclusion"></span>
+    <a href="#710-face-the-truth-conclusion" class="subheading-anchor" aria-label="Permalink for this section"></a></h4>
         </div>
         <div class="hx:mt-16"></div><div class="hx:mb-8 hx:flex hx:items-center hx:border-t hx:pt-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-neutral-400 hx:dark:contrast-more:border-neutral-400 hx:print:hidden"><a
-        href="/docs/01_methodology/threat-hunting/04-hunting-with-data/"
-        title="[03] Hunting with Data"
+        href="/docs/01_methodology/threat-hunting/06-threat-hunting-in-cloud/"
+        title="[06] Threat Hunting in Cloud"
         class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:pr-4 hx:rtl:pl-4"
-      ><svg class="hx:inline hx:h-5 hx:shrink-0 hx:ltr:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>[03] Hunting with Data</a><a
-        href="/docs/01_methodology/threat-hunting/05-custom-threat-hunting/"
-        title="[04] Custom Threat Hunting"
+      ><svg class="hx:inline hx:h-5 hx:shrink-0 hx:ltr:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>[06] Threat Hunting in Cloud</a><a
+        href="/docs/01_methodology/threat-hunting/02-threat-actors/"
+        title="[02] Threat Actors"
         class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:ml-auto hx:ltr:pl-4 hx:ltr:text-right hx:rtl:mr-auto hx:rtl:pr-4 hx:rtl:text-left"
-      >[04] Custom Threat Hunting<svg class="hx:inline hx:h-5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div>
+      >[02] Threat Actors<svg class="hx:inline hx:h-5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div>
       </main>
     </article>
   </div>

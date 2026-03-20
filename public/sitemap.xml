@@ -5,16 +5,40 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-introduction/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/threat-hunting/02-threat-actors/</loc>
+    <loc>http://localhost:1313/docs/01_methodology/threat-hunting/04-hunting-with-data/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-communication/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/01_methodology/threat-hunting/05-custom-threat-hunting/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/01_methodology/threat-hunting/06-threat-hunting-in-cloud/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/01_methodology/threat-hunting/07-psychology-of-trust-boundary/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/02_platforms/web/web-application-enumeration/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/02_platforms/wifi/01-recon/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/03_techniques/01-using-certutil/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/01-incident-response/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/06_tools/06.1_web/whois/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/authors/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/06_tools/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
@@ -23,40 +47,42 @@
     <loc>http://localhost:1313/docs/01_methodology/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/02_platforms/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/authors/prasanna-v-balaji/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/03_techniques/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/01_methodology/threat-hunting/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/02_platforms/web/web-application-enumeration/</loc>
+    <loc>http://localhost:1313/docs/02_platforms/web/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/02_platforms/wifi/01-recon/</loc>
+    <loc>http://localhost:1313/docs/06_tools/06.1_web/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/03_techniques/01-using-certutil/</loc>
+    <loc>http://localhost:1313/docs/02_platforms/wifi/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/01-incident-response/</loc>
+    <loc>http://localhost:1313/docs/01_methodology/threat-hunting/02-threat-actors/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/06_tools/06.1_web/whois/</loc>
+    <loc>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-introduction/</loc>
+    <lastmod>2026-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/06_tools/</loc>
+    <loc>http://localhost:1313/docs/06_tools/06.3_training/untitled/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/05_detection/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/06_tools/06.2_network/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/02_platforms/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/03_techniques/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/02_platforms/web/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/06_tools/06.1_web/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/02_platforms/wifi/</loc>
   </url>
 </urlset>
