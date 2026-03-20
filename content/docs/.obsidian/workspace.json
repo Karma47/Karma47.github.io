@@ -256,6 +256,8 @@
   },
   "active": "a293e93b92052fde",
   "lastOpenFiles": [
+    "01_methodology/Threat Hunting/05 Threat Hunting in Cloud.md",
+    "01_methodology/Threat Hunting/06 Psychology of trust boundary.md",
     "01_methodology/Threat Hunting/02 Threat Actors.md",
     "05_detection/XY Notes Template.md",
     "01_methodology/Threat Hunting/03 Threat Communication.md",
@@ -295,7 +297,6 @@
     "01_methodology/Threat Hunting",
     "06_tools/06.2_network/_index.md",
     "02_platforms/web/_index.md",
-    "01_methodology/web/web_tools/_index.md",
     "06_tools/06.2_network",
     "06_tools/06.1_web",
     "06_tools",

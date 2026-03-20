@@ -4,6 +4,7 @@ date: 2026-03-19
 authors: ["Prasanna"]
 draft: true
 ---
+
 {{< meta >}}
 
 #### 7.1 What is a trust boundary
