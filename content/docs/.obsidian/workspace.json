@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_methodology/Threat Hunting/05 Custom Threat Hunting.md",
+                "file": "01_methodology/Threat Hunting/XY Notes Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 Custom Threat Hunting"
+              "title": "XY Notes Template"
             }
           }
         ],
@@ -259,7 +259,7 @@
     "02_platforms/web/Web Application Enumeration.md",
     "02_platforms/web/assets/Pasted image 20260320153345.png",
     "02_platforms/web/assets",
-    "01_methodology/Threat Hunting/05 Custom Threat Hunting.md",
+    "01_methodology/Threat Hunting/XY Notes Template.md",
     "01_methodology/Threat Hunting/assets/Pasted image 20260320153003.png",
     "01_methodology/Threat Hunting/06 Threat Hunting in Cloud.md",
     "01_methodology/Threat Hunting/01 Threat Hunting Introduction.md",

@@ -2,7 +2,7 @@
 title: "[04] Custom Threat Hunting"
 date: 2026-03-19
 authors:
-  - Prasanna
+  - aswin
 draft: false
 ---
 
@@ -11,11 +11,11 @@ draft: false
 ### New article 
 This is my notes related to cyber security. 
 
-| wt4rt | gwrgs |
-| ----- | ----- |
-| wgw   | wg    |
+| Sample | Table       |
+| ------ | ----------- |
+| Item 1 | Description |
 ```powershel
-$ snlasddncad lvkdwmlsdk adslkfmadlk 
+$ powershell sample code snippet
 ```
 This is a live document. 
 
