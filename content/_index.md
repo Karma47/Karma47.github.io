@@ -59,6 +59,11 @@ description: "Portfolio and personal site"
   <h1>Hello, I'm Prasanna V Balaji 👋</h1>
   <p>
     Cyber Security <span id="role" class="highlight">Specialist</span>
+      <p style="font-size:0.95rem; color:#aaa;">
+    🛡 800+ Professionals Trained • 🐞 CVEs Reserved • 🧪 Multiple Vulnerability Disclosures
+    <p>
+    Threat Hunting • SIEM • Incident Response • Red Teaming • Vulnerability Management • TTX
+    </p>
   </p>
 </div>
 
@@ -79,14 +84,11 @@ description: "Portfolio and personal site"
 
 ## 🚀 What I Do
 
-<div class="card">🌐 Cybersecurity Research</div>
-<div class="card">🔐 Offensive Security</div>
-<div class="card">🧩 Attack Simulation and TTX</div>
+<div class="card">🌐 Discover and disclose real-world vulnerabilities</div>
+<div class="card">🔐 Simulate attacks & strengthen enterprise defenses</div>
+<div class="card">🧩 Design and execute Threat Hunting & TTX exercises</div>
 
 ---
-
----
-
 ## 🎓 Certifications
 
 <style>
@@ -117,7 +119,6 @@ description: "Portfolio and personal site"
 </style>
 
 <div class="cert-grid">
-
   <!-- OffSec -->
   <a class="cert-item" href="https://credentials.offsec.com/e59cdbab-42ee-4552-b394-2cbe95518344#acc.EQlex6Pt" target="_blank">
     <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/176645659">
@@ -219,7 +220,8 @@ description: "Portfolio and personal site"
 
 <div class="card">
   <strong>Project RTFM</strong><br/>
-  Building a comprehensive Knowledge database of cybersecurity knowledge. 
+  Cybersecurity knowledge platform covering threat hunting, offensive security, and methodologies.<br/>
+  <span class="highlight">Built with Hugo • Structured for real-world use</span>
 </div>
 
 <div class="card">
@@ -242,15 +244,9 @@ description: "Portfolio and personal site"
   <a href="https://github.com/Karma47">💻 GitHub</a>
 </div>
 
----
-
-<div class="quote">
-  "Crafting solutions, one exploit at a time."
-</div>
-
----
-
 ## 📺 Latest Videos
+
+<iframe width="900" height="315" src="https://www.youtube.com/embed/WGidtNRHpko?si=q1QoplpL_wkl2qug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - [Vulnhub - kioptrix 4](https://www.youtube.com/watch?v=LNsNu7bksE0)
 - [Vulnhub - Kioptrix 3](https://www.youtube.com/watch?v=ImiwQj6UGfM)
@@ -265,3 +261,13 @@ description: "Portfolio and personal site"
 ## 🖥️ Arch Linux Setup
 
 <img src="https://gitlab.com/blankdash/arch-dot-files/-/raw/master/qtile/qtile/screenshots/desktop_full.png" style="border-radius:12px; margin-top:1rem;" />
+
+<div class="card" style="text-align:center;">
+  <strong>🚀 Let's Work Together</strong><br/>
+  Open to cybersecurity roles, consulting, and collaborations.
+<div class="quote">
+  "Crafting solutions, one exploit at a time."
+</div>
+  <br/><br/>
+  <a href="mailto:prasannavbalaji@proton.me">📩 Contact Me</a>
+</div>
