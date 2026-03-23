@@ -85,6 +85,108 @@ description: "Portfolio and personal site"
 
 ---
 
+---
+
+## 🎓 Certifications
+
+<style>
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.cert-item img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.cert-item img:hover {
+  transform: scale(1.1);
+}
+
+.cert-name {
+  font-size: 0.85rem;
+  color: #ccc;
+}
+</style>
+
+<div class="cert-grid">
+
+  <!-- OffSec -->
+  <a class="cert-item" href="https://credentials.offsec.com/e59cdbab-42ee-4552-b394-2cbe95518344#acc.EQlex6Pt" target="_blank">
+    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/176645659">
+    <div class="cert-name">OSIR</div>
+  </a>
+
+  <a class="cert-item" href="https://credentials.offsec.com/36e130be-97b7-4dd9-a641-683ad574b6db##acc.y3kD7YIK" target="_blank">
+    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/173436472">
+    <div class="cert-name">OSTH</div>
+  </a>
+
+  <a class="cert-item" href="https://credentials.offsec.com/ccc72839-54a1-4fa8-bdd2-b6171e476587##acc.MOWm1ABU" target="_blank">
+    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/174459860">
+    <div class="cert-name">OSWP</div>
+  </a>
+
+  <a class="cert-item" href="https://credentials.offsec.com/b9496311-bf16-4e87-83d3-c9b7ff5e64fc##acc.HWjwJpSY" target="_blank">
+    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/172036315">
+    <div class="cert-name">OSCC</div>
+  </a>
+
+  <a class="cert-item" href="https://credentials.offsec.com/6d20cb22-6d28-4132-94c9-2911c4ce5337##acc.hCprIHQ8" target="_blank">
+    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/171995347">
+    <div class="cert-name">KLCP</div>
+  </a>
+
+  <!-- EC-Council -->
+  <a class="cert-item" href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=QOb+PZyIHUmG5cBymy1E01njoEu0iD2Ov6brRKi1N1I=" target="_blank">
+    <img src="/images/certs/CISO.webp">
+    <div class="cert-name">C|CISO</div>
+  </a>
+
+  <a class="cert-item" href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=H+uvGg3f1u+SxDBpucsWAvK0wMK/QARWNuCC6BjJ/Gw=" target="_blank">
+    <img src="/images/certs/ceh.webp">
+    <div class="cert-name">CEH Master</div>
+  </a>
+
+  <a class="cert-item" href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=HUIuz777Vo7bn+YectPcwfSuGjJv5l9Byz8vzOWTzj0=" target="_blank">
+    <img src="/images/certs/chfi.webp">
+    <div class="cert-name">CHFI</div>
+  </a>
+
+  <!-- INE -->
+  <a class="cert-item" href="https://certs.ine.com/85dbbb0a-6d1f-47b1-bde7-b79345cf4067##acc.Rk7VOUMx" target="_blank">
+    <img src="/images/certs/ecppt.svg">
+    <div class="cert-name">eCPPT</div>
+  </a>
+
+  <a class="cert-item" href="https://certs.ine.com/f374ec64-9aca-440a-8b15-dab5a7ef257d#acc.HGbxEweK" target="_blank">
+    <img src="/images/certs/ewptx.svg">
+    <div class="cert-name">eWPTX</div>
+  </a>
+
+  <!-- CCSK -->
+  <a class="cert-item" href="https://www.credly.com/badges/e319a7c6-2cfa-40cc-a30a-e65de87543b9/linked_in_profile" target="_blank">
+    <img src="/images/certs/ccsk.png">
+    <div class="cert-name">CCSK</div>
+  </a>
+
+  <!-- OSCP -->
+  <a class="cert-item" href="" target="_blank">
+    <img src="/images/certs/oscp.png">
+    <div class="cert-name">OSCP (In Progress)</div>
+  </a>
+
+</div>
+
+---
+
 ## 🏆 Recognition & Impact
 
 <div class="card" style="border-left: 4px solid #00bcd4;">
