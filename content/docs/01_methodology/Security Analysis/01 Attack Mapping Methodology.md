@@ -3,7 +3,6 @@ title: "[1] Attack Mapping Methodology"
 date: 2026-03-23
 authors:
   - Prasanna
-draft: true
 ---
 
 {{< meta >}}
