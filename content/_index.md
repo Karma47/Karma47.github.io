@@ -57,14 +57,25 @@ description: "Portfolio and personal site"
 
 <div class="hero">
   <h1>Hello, I'm Prasanna V Balaji 👋</h1>
-  <p>
+
+  <p class="subtitle">
     Cyber Security <span id="role" class="highlight">Specialist</span>
-      <p style="font-size:0.95rem; color:#aaa;">
-    🛡 800+ Professionals Trained • 🐞 CVEs Reserved • 🧪 Multiple Vulnerability Disclosures
-    <p>
-    Threat Hunting • SIEM • Incident Response • Red Teaming • Vulnerability Management • TTX
-    </p>
   </p>
+
+  <p class="stats">
+    🛡 800+ Professionals Trained • 🐞 CVEs Reserved • 🧪 Multiple Vulnerability Disclosures
+  </p>
+
+  <p class="skills">
+    Threat Hunting • SIEM • Incident Response • Red Teaming • Vulnerability Management • TTX
+  </p>
+
+  <!-- CTA Buttons INSIDE hero -->
+  <div class="links">
+    <a href="/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/">📘 Notes</a>
+    <a href="/docs/02_platforms/lab_tracker.html">🧪 Labs</a>
+    <a href="https://github.com/Karma47" target="_blank">💻 GitHub</a>
+  </div>
 </div>
 
 <script>
@@ -260,13 +271,39 @@ description: "Portfolio and personal site"
 
 ---
 
-## 🔗 Explore More
+<style>
+.links {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
 
-<div class="links">
-  <a href="/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/">📘 Notes</a>
-  <a href="/docs/02_platforms/lab_tracker.html">🧪 Labs</a>
-  <a href="https://github.com/Karma47">💻 GitHub</a>
-</div>
+.links a {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.links a:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.links a:active {
+  transform: scale(0.98);
+}
+</style>
 
 ## 📺 Latest Videos
 
