@@ -80,3 +80,10 @@ Here is an example MITRE ATT&CK Mapping for an attack scenario we've mentioned e
 | Exfiltration              | Data Theft                                       | Exfiltration Over C2 Channel (T1041)                                               |
 | Actions on Objectives     | Disable AV, Further Execution, Domain Compromise | Impair Defenses (T1562), Lateral Movement (T1021), Domain Accounts (T1078)         |
 
+#### 2.2 ICS Cyber Attack - Kill Chain Mapping
+
+According to the [SANS Industrial Control Systems Cyber Kill Chain White Paper](https://sansorg.egnyte.com/dl/k7gJ2gVBj5) ICS attacks may have many facets that fall into the attack categories of enabling, initiation or supporting to achive their ultimate effect. The complexity of launching an attack is determined by the security of the system the process being monitored and contrlled, the safety design and controls and the intended impact. 
+
+In the Stuxnet campaign there is a completed two-stage ICS attack that le to the highly tailored and impactful manipulation of the process to cause physical destruction. The attack is mapped to the [Purdue Model](https://www.zscaler.com/resources/security-terms-glossary/what-is-purdue-model-ics-security) below;
+
+![](/docs/01_methodology/security-analysis/assets/Pasted_image_20260325233319.png)

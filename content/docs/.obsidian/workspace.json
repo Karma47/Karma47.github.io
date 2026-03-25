@@ -163,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b11f7fb38e451789",
@@ -270,6 +271,7 @@
   },
   "active": "2dcb0bc11b6c5dd1",
   "lastOpenFiles": [
+    "01_methodology/Security Analysis/assets/Pasted image 20260325233319.png",
     "01_methodology/Threat Hunting/05 Threat Hunting in Cloud.md",
     "01_methodology/Security Analysis/01 Attack Mapping Methodology.md",
     "01_methodology/Threat Hunting/01 Threat Hunting Essentials.md",
